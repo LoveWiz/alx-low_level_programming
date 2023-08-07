@@ -5,11 +5,7 @@
 #include <fcntl.h>
 #include <stdlib.h>
 
-/**
- * @letters: Number of letters to be printed
- * @filename: Name of file
- * Return: 0
-*/
+
 
 ssize_t read_textfile(const char *filename, size_t letters)
 {
